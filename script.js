@@ -1,14 +1,14 @@
 let questions = [
     {
-        prompt:"香蕉是什麼顏色/n(a)紅色/n(b)綠色/n(c)黃色",
+        prompt:"香蕉是什麼顏色\n(a)紅色\n(b)綠色\n(c)黃色",
         answer:"c"
     },
     {
-        prompt:"草莓是什麼顏色/n(a)紅色/n(b)綠色/n(c)黃色",
+        prompt:"草莓是什麼顏色\n(a)紅色\n(b)綠色\n(c)黃色",
         answer:"a"
     },
     {
-        prompt:"西瓜是什麼顏色/n(a)紅色/n(b)綠色/n(c)黃色",
+        prompt:"西瓜是什麼顏色\n(a)紅色\n(b)綠色\n(c)黃色",
         answer:"b"
     }
 ]
@@ -20,5 +20,5 @@ for(let i = 0;i<questions.length;i++){
         alert("答對了");
     }else{
         alert("答錯了")
-    }
-    }
+    }   
+    }   
